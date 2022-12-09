@@ -14,4 +14,3 @@ def creating_arch():
             zf.write(add_file)
 
     return zf
-
