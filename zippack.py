@@ -13,4 +13,3 @@ def creating_arch():
             add_file = os.path.join(path, file)
             zf.write(add_file)
 
-    return zf

@@ -12,7 +12,7 @@ root2 = os.path.dirname(this_dir)
 path = os.path.join(root2, 'resources')
 arch_path = os.path.join(path,'archive.zip')
 
-
+zip_ = ZipFile(arch_path)
 def test_csv():
     file = zip_.extract(zip_.namelist()[1])
 
